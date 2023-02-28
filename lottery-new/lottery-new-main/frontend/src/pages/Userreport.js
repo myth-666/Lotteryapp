@@ -1,10 +1,9 @@
-import Filterbar from "../components/Filterbar";
-import Filterbox from "../components/Filterbox";
+
 import "./Userreport.css";
 export default function Userreport() {
   return (
     <>
-    <Filterbox/>
+    
     <div className="Userrreport_container">
       <div className="Userreport_header">
 
