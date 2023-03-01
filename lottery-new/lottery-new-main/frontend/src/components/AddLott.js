@@ -380,10 +380,11 @@ const subShow=(isShow)=>{
               <Input
               isRequired="*"
                 name="Admin Charge per Unit"
+                
                 value={adminchargeperunit}
                 onChange={(e) => {
                   setAdminchargeperunit(e.target.value);
-                }}
+                }} disabled
               />
             </div>
             
